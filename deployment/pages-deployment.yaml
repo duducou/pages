@@ -4,7 +4,7 @@ metadata:
   labels:
     app: pages
   name: pages
-  namespace: finchlay
+  namespace: finchley
 spec:
   replicas: 1
   selector:
