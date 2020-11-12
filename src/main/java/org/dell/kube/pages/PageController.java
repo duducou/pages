@@ -8,6 +8,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/pages")
 public class PageController {
+
     private IPageRepository pageRepository;
     Logger logger =(Logger)LoggerFactory.getLogger(this.getClass());
     public PageController(IPageRepository pageRepository)
